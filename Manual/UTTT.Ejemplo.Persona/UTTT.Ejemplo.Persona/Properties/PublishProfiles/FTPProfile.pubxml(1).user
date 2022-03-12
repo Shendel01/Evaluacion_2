@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <_PublishTargetUrl>ftp://DesarrolloWebShendel.somee.com/www.DesarrolloWebShendel.somee.com</_PublishTargetUrl>
+    <History>True|2022-02-03T22:06:38.7532019Z;True|2022-02-02T21:06:44.0504619-06:00;True|2022-02-02T20:38:48.9094310-06:00;True|2022-02-02T20:09:57.2933669-06:00;True|2022-02-02T19:40:55.4940189-06:00;True|2022-02-01T21:06:30.6035500-06:00;True|2022-01-18T11:39:33.7727837-06:00;True|2022-01-18T11:17:10.4439784-06:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/UTTT.Ejemplo.Linq.Data.dll">
+      <publishTime>01/26/2022 20:16:32</publishTime>
+    </File>
+    <File Include="bin/UTTT.Ejemplo.Linq.Data.dll.config">
+      <publishTime>01/26/2022 20:12:34</publishTime>
+    </File>
+    <File Include="bin/UTTT.Ejemplo.Linq.Data.pdb">
+      <publishTime>01/26/2022 20:16:32</publishTime>
+    </File>
+    <File Include="bin/UTTT.Ejemplo.Persona.Control.dll">
+      <publishTime>01/18/2022 11:33:06</publishTime>
+    </File>
+    <File Include="bin/UTTT.Ejemplo.Persona.Control.pdb">
+      <publishTime>01/18/2022 11:33:06</publishTime>
+    </File>
+    <File Include="bin/UTTT.Ejemplo.Persona.Data.dll">
+      <publishTime>01/18/2022 11:33:06</publishTime>
+    </File>
+    <File Include="bin/UTTT.Ejemplo.Persona.Data.pdb">
+      <publishTime>01/18/2022 11:33:06</publishTime>
+    </File>
+    <File Include="bin/UTTT.Ejemplo.Persona.dll">
+      <publishTime>02/03/2022 16:05:44</publishTime>
+    </File>
+    <File Include="bin/UTTT.Ejemplo.Persona.pdb">
+      <publishTime>02/03/2022 16:05:44</publishTime>
+    </File>
+    <File Include="controlformato.css">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="direccion.aspx">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="DireccionExtraManager.aspx">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="DireccionManager.aspx">
+      <publishTime>01/04/2022 17:19:20</publishTime>
+    </File>
+    <File Include="ErrorPage.aspx">
+      <publishTime>01/29/2022 10:38:07</publishTime>
+    </File>
+    <File Include="Images/delrecord_16x16.png">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="Images/editrecord_16x16.png">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="Images/Pixir-1-1-300x181.png">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="Images/printrecord_16x16.png">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="javaScripFile.js">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="javaScripPage.aspx">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="paginaMaster.Master">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="PersonaManager.aspx">
+      <publishTime>02/02/2022 21:49:38</publishTime>
+    </File>
+    <File Include="PersonaPrincipal.aspx">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1-vsdoc.js">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.js">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.4.1.min.js">
+      <publishTime>04/26/2016 13:33:12</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/02/2022 21:05:35</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

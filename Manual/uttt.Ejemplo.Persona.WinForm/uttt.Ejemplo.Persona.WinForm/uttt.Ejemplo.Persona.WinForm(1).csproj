@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E894EA35-F488-4553-95C9-A63ADE33E2FA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>uttt.Ejemplo.Persona.WinForm</RootNamespace>
+    <AssemblyName>uttt.Ejemplo.Persona.WinForm</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDireccionManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDireccionManager.Designer.cs">
+      <DependentUpon>frmDireccionManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDireccionPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDireccionPrincipal.Designer.cs">
+      <DependentUpon>frmDireccionPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.6.1.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="PersonaManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonaManager.Designer.cs">
+      <DependentUpon>PersonaManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\Ejemplo\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDireccionManager.resx">
+      <DependentUpon>frmDireccionManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDireccionPrincipal.resx">
+      <DependentUpon>frmDireccionPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\uttt.Ejemplo.Persona.WinForm.Form1.resources" />
+    <EmbeddedResource Include="obj\Debug\uttt.Ejemplo.Persona.WinForm.frmDireccionManager.resources" />
+    <EmbeddedResource Include="obj\Debug\uttt.Ejemplo.Persona.WinForm.frmDireccionPrincipal.resources" />
+    <EmbeddedResource Include="obj\Debug\uttt.Ejemplo.Persona.WinForm.PersonaManager.resources" />
+    <EmbeddedResource Include="obj\Debug\uttt.Ejemplo.Persona.WinForm.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\Debug\uttt.Ejemplo.Persona.WinForm.Resource1.resources" />
+    <EmbeddedResource Include="PersonaManager.resx">
+      <DependentUpon>PersonaManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="bin\Debug\uttt.Ejemplo.Persona.WinForm.exe.config" />
+    <None Include="bin\Debug\uttt.Ejemplo.Persona.WinForm.vshost.exe.config" />
+    <None Include="bin\Debug\uttt.Ejemplo.Persona.WinForm.vshost.exe.manifest" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\uttt.Ejemplo.Persona.WinForm.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\uttt.Ejemplo.Persona.WinForm.csproj.GenerateResource.cache" />
+    <None Include="obj\Debug\uttt.Ejemplo.Persona.WinForm.csprojAssemblyReference.cache" />
+    <None Include="obj\Debug\uttt.Ejemplo.Persona.WinForm.csprojResolveAssemblyReference.cache" />
+    <None Include="Properties\DataSources\UTTT.Ejemplo.Persona.Data.Entity.Persona.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Service References\Ejemplo\Ejemplo.wsdl" />
+    <None Include="Service References\Ejemplo\uttt.Ejemplo.Persona.WinForm.Ejemplo.CatSexo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Ejemplo\uttt.Ejemplo.Persona.WinForm.Ejemplo.consultaGlobalSexoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Ejemplo\uttt.Ejemplo.Persona.WinForm.Ejemplo.consultarGlobalDireccionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Ejemplo\uttt.Ejemplo.Persona.WinForm.Ejemplo.consultarGlobalPersonaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Ejemplo\uttt.Ejemplo.Persona.WinForm.Ejemplo.consultarUnicaDireccionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Ejemplo\uttt.Ejemplo.Persona.WinForm.Ejemplo.consultarUnicaPersonaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Ejemplo\uttt.Ejemplo.Persona.WinForm.Ejemplo.Direccion.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Ejemplo\uttt.Ejemplo.Persona.WinForm.Ejemplo.editarDireccionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Ejemplo\uttt.Ejemplo.Persona.WinForm.Ejemplo.editarPersonaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Ejemplo\uttt.Ejemplo.Persona.WinForm.Ejemplo.eliminarDireccionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Ejemplo\uttt.Ejemplo.Persona.WinForm.Ejemplo.eliminarPersonaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Ejemplo\uttt.Ejemplo.Persona.WinForm.Ejemplo.insertarDireccionResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Ejemplo\uttt.Ejemplo.Persona.WinForm.Ejemplo.insertarPersonaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Ejemplo\uttt.Ejemplo.Persona.WinForm.Ejemplo.Persona.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\Ejemplo\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Ejemplo\Ejemplo.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Ejemplo\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Ejemplo\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Ejemplo\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoSalir.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_agregar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoSalir1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\uttt.Ejemplo.Persona.WinForm.exe" />
+    <Content Include="bin\Debug\uttt.Ejemplo.Persona.WinForm.pdb" />
+    <Content Include="bin\Debug\uttt.Ejemplo.Persona.WinForm.vshost.exe" />
+    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Resource1.Designer.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.Ejemplo.Reference.cs.dll" />
+    <Content Include="obj\Debug\TempPE\Service References.ServiceReference1.Reference.cs.dll" />
+    <Content Include="obj\Debug\uttt.Ejemplo.Persona.WinForm.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\uttt.Ejemplo.Persona.WinForm.exe" />
+    <Content Include="obj\Debug\uttt.Ejemplo.Persona.WinForm.pdb" />
+    <Content Include="Resources\GUARDA.jpg" />
+    <None Include="Resources\Ico_Mapa_Arista_Nodo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

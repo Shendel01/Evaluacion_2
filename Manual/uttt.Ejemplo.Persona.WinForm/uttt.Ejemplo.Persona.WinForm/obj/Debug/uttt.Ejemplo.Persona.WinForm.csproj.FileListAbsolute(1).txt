@@ -1,0 +1,27 @@
+C:\Users\killer\Documents\Visual Studio 2012\Projects\uttt.Ejemplo.Persona.WinForm\uttt.Ejemplo.Persona.WinForm\obj\Debug\uttt.Ejemplo.Persona.WinForm.Form1.resources
+C:\Users\killer\Documents\Visual Studio 2012\Projects\uttt.Ejemplo.Persona.WinForm\uttt.Ejemplo.Persona.WinForm\obj\Debug\uttt.Ejemplo.Persona.WinForm.frmDireccionManager.resources
+C:\Users\killer\Documents\Visual Studio 2012\Projects\uttt.Ejemplo.Persona.WinForm\uttt.Ejemplo.Persona.WinForm\obj\Debug\uttt.Ejemplo.Persona.WinForm.frmDireccionPrincipal.resources
+C:\Users\killer\Documents\Visual Studio 2012\Projects\uttt.Ejemplo.Persona.WinForm\uttt.Ejemplo.Persona.WinForm\obj\Debug\uttt.Ejemplo.Persona.WinForm.PersonaManager.resources
+C:\Users\killer\Documents\Visual Studio 2012\Projects\uttt.Ejemplo.Persona.WinForm\uttt.Ejemplo.Persona.WinForm\obj\Debug\uttt.Ejemplo.Persona.WinForm.Properties.Resources.resources
+C:\Users\killer\Documents\Visual Studio 2012\Projects\uttt.Ejemplo.Persona.WinForm\uttt.Ejemplo.Persona.WinForm\obj\Debug\uttt.Ejemplo.Persona.WinForm.csproj.GenerateResource.Cache
+C:\Users\killer\Documents\Visual Studio 2012\Projects\uttt.Ejemplo.Persona.WinForm\uttt.Ejemplo.Persona.WinForm\bin\Debug\uttt.Ejemplo.Persona.WinForm.exe.config
+C:\Users\killer\Documents\Visual Studio 2012\Projects\uttt.Ejemplo.Persona.WinForm\uttt.Ejemplo.Persona.WinForm\bin\Debug\uttt.Ejemplo.Persona.WinForm.exe
+C:\Users\killer\Documents\Visual Studio 2012\Projects\uttt.Ejemplo.Persona.WinForm\uttt.Ejemplo.Persona.WinForm\bin\Debug\uttt.Ejemplo.Persona.WinForm.pdb
+C:\Users\killer\Documents\Visual Studio 2012\Projects\uttt.Ejemplo.Persona.WinForm\uttt.Ejemplo.Persona.WinForm\obj\Debug\uttt.Ejemplo.Persona.WinForm.exe
+C:\Users\killer\Documents\Visual Studio 2012\Projects\uttt.Ejemplo.Persona.WinForm\uttt.Ejemplo.Persona.WinForm\obj\Debug\uttt.Ejemplo.Persona.WinForm.pdb
+C:\Users\killer\Documents\Visual Studio 2012\Projects\uttt.Ejemplo.Persona.WinForm\uttt.Ejemplo.Persona.WinForm\obj\Debug\uttt.Ejemplo.Persona.WinForm.csprojResolveAssemblyReference.cache
+C:\Users\killer\Documents\Visual Studio 2012\Projects\uttt.Ejemplo.Persona.WinForm\uttt.Ejemplo.Persona.WinForm\obj\Debug\uttt.Ejemplo.Persona.WinForm.Resource1.resources
+C:\SVN\uttt.Ejemplo.Persona.WinForm\trunk\uttt.Ejemplo.Persona.WinForm\bin\Debug\uttt.Ejemplo.Persona.WinForm.exe.config
+C:\SVN\uttt.Ejemplo.Persona.WinForm\trunk\uttt.Ejemplo.Persona.WinForm\bin\Debug\uttt.Ejemplo.Persona.WinForm.exe
+C:\SVN\uttt.Ejemplo.Persona.WinForm\trunk\uttt.Ejemplo.Persona.WinForm\bin\Debug\uttt.Ejemplo.Persona.WinForm.pdb
+C:\SVN\uttt.Ejemplo.Persona.WinForm\trunk\uttt.Ejemplo.Persona.WinForm\obj\Debug\uttt.Ejemplo.Persona.WinForm.csprojAssemblyReference.cache
+C:\SVN\uttt.Ejemplo.Persona.WinForm\trunk\uttt.Ejemplo.Persona.WinForm\obj\Debug\uttt.Ejemplo.Persona.WinForm.Form1.resources
+C:\SVN\uttt.Ejemplo.Persona.WinForm\trunk\uttt.Ejemplo.Persona.WinForm\obj\Debug\uttt.Ejemplo.Persona.WinForm.frmDireccionManager.resources
+C:\SVN\uttt.Ejemplo.Persona.WinForm\trunk\uttt.Ejemplo.Persona.WinForm\obj\Debug\uttt.Ejemplo.Persona.WinForm.frmDireccionPrincipal.resources
+C:\SVN\uttt.Ejemplo.Persona.WinForm\trunk\uttt.Ejemplo.Persona.WinForm\obj\Debug\uttt.Ejemplo.Persona.WinForm.PersonaManager.resources
+C:\SVN\uttt.Ejemplo.Persona.WinForm\trunk\uttt.Ejemplo.Persona.WinForm\obj\Debug\uttt.Ejemplo.Persona.WinForm.Properties.Resources.resources
+C:\SVN\uttt.Ejemplo.Persona.WinForm\trunk\uttt.Ejemplo.Persona.WinForm\obj\Debug\uttt.Ejemplo.Persona.WinForm.Resource1.resources
+C:\SVN\uttt.Ejemplo.Persona.WinForm\trunk\uttt.Ejemplo.Persona.WinForm\obj\Debug\uttt.Ejemplo.Persona.WinForm.csproj.GenerateResource.cache
+C:\SVN\uttt.Ejemplo.Persona.WinForm\trunk\uttt.Ejemplo.Persona.WinForm\obj\Debug\uttt.Ejemplo.Persona.WinForm.csproj.CoreCompileInputs.cache
+C:\SVN\uttt.Ejemplo.Persona.WinForm\trunk\uttt.Ejemplo.Persona.WinForm\obj\Debug\uttt.Ejemplo.Persona.WinForm.exe
+C:\SVN\uttt.Ejemplo.Persona.WinForm\trunk\uttt.Ejemplo.Persona.WinForm\obj\Debug\uttt.Ejemplo.Persona.WinForm.pdb
